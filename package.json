@@ -1,0 +1,28 @@
+{
+  "name": "haiku-weekly",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "kombucha",
+    "email": "vincentlemeunier+haikuweekly@gmail.com"
+  },
+  "scripts": {
+    "create-playlist": "node -r dotenv/config index.js",
+    "oauth": "node -r dotenv/config oauth.js"
+  },
+  "dependencies": {
+    "date-fns": "1.29.0",
+    "dotenv": "6.0.0",
+    "googleapis": "33.0.0",
+    "got": "9.2.0",
+    "opn": "5.3.0",
+    "ora": "3.0.0",
+    "qs": "6.5.2",
+    "server-destroy": "1.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "9.0.0",
+    "eslint": "5.5.0"
+  }
+}
