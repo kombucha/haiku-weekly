@@ -8,8 +8,8 @@
     "email": "vincentlemeunier+haikuweekly@gmail.com"
   },
   "scripts": {
-    "create-playlist": "node -r dotenv/config index.js",
-    "oauth": "node -r dotenv/config oauth.js"
+    "create-playlist": "node -r dotenv/config bin/cli.js",
+    "oauth": "node -r dotenv/config bin/oauth.js"
   },
   "dependencies": {
     "date-fns": "1.29.0",
